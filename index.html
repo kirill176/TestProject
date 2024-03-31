@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240401024223">
+    <title>Головна</title>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header__logo">
+    <a href=""><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="" /></picture></a>
+  </div>
+  <div class="header__list">
+    <li class="active"><a href="">Главная</a></li>
+    <li><a href="">Галерея</a></li>
+    <li><a href="">Проекти</a></li>
+    <li><a href="">Сертификаты</a></li>
+    <li><a href="">Контакты</a></li>
+  </div>
+  <div class="header__burger">
+    <span></span>
+  </div>
+</header>
+
+    <main class="main">
+      <div class="wrapper">
+        <div class="home">
+          <div class="home__content">
+            <h1>Project <br /><b>Home</b></h1>
+            <button class="prev">
+              <img src="img/prev.svg" loading="lazy" alt="" />
+            </button>
+            <button class="next">
+              <img src="img/next.svg" loading="lazy" alt="" />
+            </button>
+            <div class="numbers">
+              <p>01</p>
+              <span></span>
+              <p class="right">02</p>
+            </div>
+          </div>
+          <div class="home__image">
+            <picture><source srcset="img/home.webp" type="image/webp"><img src="img/home.png" loading="lazy" alt="" /></picture>
+            <button class="button">
+              Взглянуть <img src="img/next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="about">
+          <div class="about__images">
+            <div class="image-col">
+              <picture><source srcset="img/imgcol1.webp" type="image/webp"><img src="img/imgcol1.png" loading="lazy" alt="" /></picture>
+              <picture><source srcset="img/imgcol2.webp" type="image/webp"><img src="img/imgcol2.png" loading="lazy" alt="" /></picture>
+            </div>
+            <div class="image">
+              <picture><source srcset="img/imgabout.webp" type="image/webp"><img src="img/imgabout.png" loading="lazy" alt="" /></picture>
+            </div>
+          </div>
+          <div class="about__text">
+            <h2>О компании</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button class="button">
+              Читать <img src="img/next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks__title">
+            <h2>Основные задачи</h2>
+          </div>
+          <div class="tasks__content">
+            <div class="task">
+              <p class="number">1</p>
+              <p class="text">
+                Создание комфортных условий и повышение качества обслуживания
+                клиентов
+              </p>
+            </div>
+            <div class="task">
+              <p class="number">2</p>
+              <p class="text">
+                Постоянно совершенствовать качество предоставляемых услуг путем
+                обучения персонала, закупки нового оборудования и усиленной
+                рекламы на рынке
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="projects__title">
+            <h2>Наши проекты</h2>
+          </div>
+          <div class="projects__row">
+            <div class="center">
+              <picture><source srcset="img/primage1.webp" type="image/webp"><img src="img/primage1.png" alt="" /></picture>
+              <div class="center__text">
+                <p>Досуговый центр</p>
+                <a href=""
+                  >Подробнее <img src="img/nextwite.png" loading="lazy" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="image">
+              <picture><source srcset="img/primage2.webp" type="image/webp"><img src="img/primage2.png" loading="lazy" alt="" /></picture>
+            </div>
+          </div>
+          <div class="projects__row">
+            <picture><source srcset="img/primage3.webp" type="image/webp"><img src="img/primage3.png" loading="lazy" alt="" /></picture>
+            <picture><source srcset="img/primage4.webp" type="image/webp"><img src="img/primage4.png" loading="lazy" alt="" /></picture>
+            <picture><source srcset="img/primage5.webp" type="image/webp"><img src="img/primage5.png" loading="lazy" alt="" /></picture>
+          </div>
+          <div class="projects__button">
+            <button class="button">
+              Все проекты <picture><source srcset="img/nextwite.webp" type="image/webp"><img src="img/nextwite.png" loading="lazy" alt="" /></picture>
+            </button>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__title">
+            <h2>Связатся с нами</h2>
+          </div>
+          <div class="contact__content">
+            <form id="contact">
+              <input type="text" name="name" placeholder="Имя" /><br />
+              <input type="text" name="phone" placeholder="Номер телефона*" />
+              <input type="email" name="email" placeholder="E-mail*" />
+              <input
+                type="text"
+                name="product"
+                placeholder="Интересующий товар/услуга"
+              />
+
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Сообщение*"
+              ></textarea>
+
+              <div class="legacy">
+                <picture><source srcset="img/check.webp" type="image/webp"><img src="img/check.png" alt="" /></picture>
+                <p>
+                  Отправляя заявку Вы соглашаетесь с политикой
+                  конфиденциальности
+                </p>
+              </div>
+              <button type="button" class="button" id="submitButton">
+                Отправить <picture><source srcset="img/nextwite.webp" type="image/webp"><img src="img/nextwite.png" loading="lazy" alt="" /></picture>
+              </button>
+            </form>
+            <div class="contact__image">
+              <picture><source srcset="img/form.webp" type="image/webp"><img src="img/form.png" loading="lazy" alt="" /></picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="footer__content">
+    <div class="footer__logo">
+      <picture><source srcset="img/flogo.webp" type="image/webp"><img src="img/flogo.png" alt="" /></picture>
+    </div>
+    <div class="footer__list">
+      <p>Информация</p>
+      <li><a href="">Главная</a></li>
+      <li><a href="">Галерея</a></li>
+      <li><a href="">Проекты</a></li>
+      <li><a href="">Сертификаты</a></li>
+      <li><a href="">Контакты</a></li>
+    </div>
+    <div class="footer__contacts">
+      <p>Контакты</p>
+      <li>
+        <img src="img/location.svg" alt="" />
+        <a href="">
+          100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</a
+        >
+      </li>
+      <li>
+        <img src="img/phone.svg" alt="" />
+        <a href="">+38 (000) 000 00 00</a>
+      </li>
+      <li>
+        <img src="img/email.svg" alt="" />
+        <a href="">mail@gmail.com</a>
+      </li>
+    </div>
+    <div class="footer__media">
+      <p>Социальные сети</p>
+      <a href=""> <img src="img/facebook.svg" alt="" /> </a>
+      <a href=""> <img src="img/twitter.svg" alt="" /> </a>
+      <a href=""> <img src="img/LinkedIn.svg" alt="" /> </a>
+      <a href=""> <img src="img/pinterest.svg" alt="" /> </a>
+    </div>
+  </div>
+  <div class="license"><p>© 2019 Digital Project. Все права защищены.</p></div>
+</footer>
+
+  </body>
+  <script src="js/app.min.js?_v=20240401024223"></script>
+</html>
