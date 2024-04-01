@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title":"Головна" })
+
+  <body>
+    @@include('html/header.html',{})
+    <main class="main">
+      <div class="wrapper">
+        <div class="home">
+          <div class="home__content">
+            <h1>Project <br /><b>Home</b></h1>
+            <button class="prev">
+              <img src="@img/prev.svg" loading="lazy" alt="" />
+            </button>
+            <button class="next">
+              <img src="@img/next.svg" loading="lazy" alt="" />
+            </button>
+            <div class="numbers">
+              <p>01</p>
+              <span></span>
+              <p class="right">02</p>
+            </div>
+          </div>
+          <div class="home__image">
+            <img src="@img/home.png" loading="lazy" alt="" />
+            <button class="button">
+              Взглянуть <img src="@img/next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="about">
+          <div class="about__images">
+            <div class="image-col">
+              <img src="@img/imgcol1.png" loading="lazy" alt="" />
+              <img src="@img/imgcol2.png" loading="lazy" alt="" />
+            </div>
+            <div class="image">
+              <img src="@img/imgabout.png" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="about__text">
+            <h2>О компании</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button class="button">
+              Читать <img src="@img/next.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="tasks__title">
+            <h2>Основные задачи</h2>
+          </div>
+          <div class="tasks__content">
+            <div class="task">
+              <p class="number">1</p>
+              <p class="text">
+                Создание комфортных условий и повышение качества обслуживания
+                клиентов
+              </p>
+            </div>
+            <div class="task">
+              <p class="number">2</p>
+              <p class="text">
+                Постоянно совершенствовать качество предоставляемых услуг путем
+                обучения персонала, закупки нового оборудования и усиленной
+                рекламы на рынке
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="projects">
+          <div class="projects__title">
+            <h2>Наши проекты</h2>
+          </div>
+          <div class="projects__row">
+            <div class="center">
+              <img src="@img/primage1.png" alt="" />
+              <div class="center__text">
+                <p>Досуговый центр</p>
+                <a href=""
+                  >Подробнее <img src="@img/nextwite.png" loading="lazy" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="image">
+              <img src="@img/primage2.png" loading="lazy" alt="" />
+            </div>
+          </div>
+          <div class="projects__row">
+            <img src="@img/primage3.png" loading="lazy" alt="" />
+            <img src="@img/primage4.png" loading="lazy" alt="" />
+            <img src="@img/primage5.png" loading="lazy" alt="" />
+          </div>
+          <div class="projects__button">
+            <button class="button">
+              Все проекты <img src="@img/nextwite.png" loading="lazy" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__title">
+            <h2>Связатся с нами</h2>
+          </div>
+          <div class="contact__content">
+            <form id="contact">
+              <input type="text" name="name" placeholder="Имя" /><br />
+              <input type="text" name="phone" placeholder="Номер телефона*" />
+              <input type="email" name="email" placeholder="E-mail*" />
+              <input
+                type="text"
+                name="product"
+                placeholder="Интересующий товар/услуга"
+              />
+
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Сообщение*"
+              ></textarea>
+
+              <div class="legacy">
+                <img src="@img/check.png" alt="" />
+                <p>
+                  Отправляя заявку Вы соглашаетесь с политикой
+                  конфиденциальности
+                </p>
+              </div>
+              <button type="button" class="button" id="submitButton">
+                Отправить <img src="@img/nextwite.png" loading="lazy" alt="" />
+              </button>
+            </form>
+            <div class="contact__image">
+              <img src="@img/form.png" loading="lazy" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    @@include('html/footer.html',{})
+  </body>
+  <script src="js/app.min.js"></script>
+</html>
